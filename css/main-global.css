@@ -34,7 +34,6 @@ font-family: 'Josefin Sans', sans-serif;
 
   font-size: 2.2rem;
   margin-top: 2.2rem;
-  /*font-family: 'Lato', sans-serif;*/
   margin-left: 1.5rem;
   font-family: 'Playfair Display', serif;
   text-decoration: none;
@@ -95,7 +94,14 @@ font-family: 'Josefin Sans', sans-serif;
 
 .cookie-quote-spacing {
 
+  height: 10rem;
 
+
+ }
+
+ .cookie-quotes {
+
+   height: inherit;
  }
 
 
