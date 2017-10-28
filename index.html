@@ -1,41 +1,144 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Hello, world!</title>
+    <title>Cookie recipes</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700|Lato:700|Oswald:700|Playfair+Display:700|Poppins:500" rel="stylesheet">
+    <!-- google fonts -->
     <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
     <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
     <link rel="stylesheet" href="css/cookie.css">
+    <link rel="stylesheet" href="css/overlay-nav.css">
+    <link rel="stylesheet" href="css/main-global.css">
   </head>
   <body>
 
-    <header class="cd-auto-hide-header">
-    	<div class="logo"><a href="#0"><img src="img/cd-logo.svg" alt="Logo"></a></div>
-
-    	<nav class="cd-primary-nav">
-    		<a href="#cd-navigation" class="nav-trigger">
-    			<span>
-    				<em aria-hidden="true"></em>
-    				Menu
-    			</span>
-    		</a> <!-- .nav-trigger -->
-
-    		<ul id="cd-navigation">
-    			<li><a href="#0">The team</a></li>
-    			<li><a href="#0">Our Products</a></li>
-    			<li><a href="#0">Our Services</a></li>
-    			<li><a href="#0">Shopping tools</a></li>
-    			<li><a href="#0">Contact Us</a></li>
-    		</ul>
-    	</nav> <!-- .cd-primary-nav -->
+    <header class="cd-auto-hide-header nav-style">
+    	<nav class="navbar navbar-light justify-content-between">
+          <!-- <div class="col-sm-3 col-md-3 col-lg-3 logo-style"> -->
+            <ul class="nav">
+              <a href="index.html" class="logo-btn-link"><h1 class="text-dark logo-style">Coffee & Cookies</h1></a>
+              </li>
+            </ul>
+          <!-- </div> -->
+              <ul class="nav overlay-button justify-content-end">
+                <li class="nav-item" onclick="openNav()">
+                  <span style="cursor:pointer"> <i class="fa fa-bars" aria-hidden="true"></i> &nbsp; </span>
+                </li>
+              </ul>
+        </nav> <!-- end of row-->
+      <!-- The overlay -->
     </header> <!-- .cd-auto-hide-header -->
 
-    div.cd-auto
+    <div id="myNav" class="overlay bg-dark">
+
+     <!-- Button to close the overlay navigation -->
+     <a href="javascript:void(0)" class="closebtn close-index" onclick="closeNav()">&times;</a>
+
+     <!-- Overlay content -->
+     <div class="container">
+       <div class="row">
+         <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 text-left">
+           <div class="overlay-content nav-link-style">
+             <a href="#" class="text-light">All Cookies</a>
+             <a href="#" class="text-light">Chocolate Cookie</a>
+             <a href="#" class="text-light">Sugar Cookie</a>
+             <a href="#" class="text-light">Peanut Butter</a>
+           </div> <!-- overlay content-->
+         </div><!-- end of column-->
+         <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 nav-social-links text-left">
+           <div class="overlay-content">
+             <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+           </div> <!-- overlay content-->
+         </div><!-- end of column-->
+       </div>
+     </div>
+   </div><!-- end of MyNav -->
+
+   <div class="jumbotron jumbotron-fluid text-center coffee-intro">
+  <div class="container">
+    <h1 class="display-3 text-dark banner-text">Coffee Pairings. & Cookie Desserts </h1>
+    <hr>
+    <h4 class="lead banner-copy">Recipees for banking gourmet desserts.</h4>
+  </div>
+</div><!-- end of column-->
+
+<div class="container-fluid cookie-quote-spacing">
+  <div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-12"><img src="" alt="" class="border border-dark rounded-cirlce">
+        <h2>
+          <p class="te">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, facere nobis eius maiores officia culpa, consectetur a, provident debitis delectus quam eos natus!</p></h2>
+      </img></div>
+  </div> <!-- end row -->
+</div><!-- end of container fluid -->
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-12">
+
+    </div>
+  </div> <!-- end row -->
+</div> <!-- end of container-->
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12 col-md-4 col-md-4 cookie-img-doors">
+      <img src="" alt="">
+    </div>
+    <div class="col-sm-12 col-md-4 col-md-4 cookie-img-doors">
+      <img src="" alt="">
+    </div>
+    <div class="col-sm-12 col-md-4 col-md-4 cookie-img-doors">
+      <img src="" alt="">
+    </div>
+  </div> <!-- end of row -->
+</div> <!-- end of container fluid -->
+
+<div class="container-fluid cookie-quote-spacing">
+  <div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-12"><img src="" alt="" class="border border-dark rounded-cirlce">
+        <h2>
+          <p class="te">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, facere nobis eius maiores officia culpa, consectetur a, provident debitis delectus quam eos natus!</p></h2>
+      </img></div>
+  </div> <!-- end row -->
+</div><!-- end of container fluid -->
+
+
+<div class="container-fluid bg-dark">
+  <div class="row">
+    <div class="col-sm-3 col-md-6 col-lg-3">
+      
+    </div>
+    <div class="col-sm-3 col-md-6 col-lg-3">
+      
+    </div>
+    <div class="col-sm-3 col-md-12 col-lg-3">
+      
+    </div>
+    <div class="col-sm-3 col-md-12 col-lg-3">
+      
+    </div>
+  </div>
+</div>
+
+
 
 
     <!-- Optional JavaScript -->
@@ -44,6 +147,7 @@
     	if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
     </script>
     <script src="js/main.js"></script> <!-- Resource jQuery -->
+    <script src="js/overlay.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
