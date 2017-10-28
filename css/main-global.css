@@ -71,35 +71,47 @@ font-family: 'Josefin Sans', sans-serif;
 .banner-copy {
 
     font-size: 2rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-family: 'Playfair Display', serif;
 
 }
 
 .nav-link-style {
 
+  margin-top: 1rem;
   font-size: 5rem !important;
   font-family: 'Oswald', sans-serif;
-  margin-top: 8rem;
 
 
-}
+ }
 
 .nav-social-links {
 
-  margin-top: 8rem;
+  margin-top: 4rem;
   font-size: 5rem !important;
 
-}
+ }
 
 
 .cookie-quote-spacing {
 
-  
-}
+
+ }
 
 
 .cookie-img-doors {
 
 
-}
+ }
+
+.footer-spacing-styles {
+
+
+
+ }
+
+
+ .footer-text-styles {
+
+
+ }
