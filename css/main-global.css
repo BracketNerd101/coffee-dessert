@@ -54,7 +54,7 @@ font-family: 'Josefin Sans', sans-serif;
 
 .coffee-intro {
 
-  background-image: url(../img/blue-berrybanner.jpg);
+  background-image: url(../img/coffee-cookie.jpg);
   background-size: cover;
   height: 65rem;
   width: 100%;
@@ -122,6 +122,13 @@ font-family: 'Josefin Sans', sans-serif;
    padding-bottom: 2rem;
  }
 
+
+ .company-cookie-text {
+      font-size: 1.9rem;
+      font-family: 'Oswald', sans-serif;
+
+ }
+
 .carousel-indicators{
 
   /*padding-top: 12rem;*/
@@ -129,6 +136,33 @@ font-family: 'Josefin Sans', sans-serif;
 }
 
 .cookie-img-doors {
+
+
+ }
+
+ .cookie-img-doors-1 {
+   background-image: url(../img/milk-cookies.jpg);
+   background-size: cover;
+   height: 35rem;
+   width: 100%;
+
+
+ }
+
+ .cookie-img-doors-2 {
+   background-image: url(../img/coffee-cookie.jpg);
+   background-size: cover;
+   height: 35rem;
+   width: 100%;
+
+
+ }
+
+ .cookie-img-doors-3 {
+   background-image: url(../img/coffee-cookie.jpg);
+   background-size: cover;
+   height: 35rem;
+   width: 100%;
 
 
  }
