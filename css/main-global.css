@@ -96,17 +96,25 @@ font-family: 'Josefin Sans', sans-serif;
 
  .cookie-styles {
 
-   margin-top: -12rem !important;
+   margin-top: 1rem !important;
    margin-bottom: 3rem;
    width: auto;
-   height: 12rem;
+   height: 15rem;
+
+ }
+
+ .scroll-down-text {
+
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+
 
  }
 
 
 .cookie-quote-spacing {
 
-  height: 25rem;
+  height: 35rem;
   padding-top: 7rem;
   padding-bottom: 7rem;
   margin-top: -4rem;
@@ -118,10 +126,17 @@ font-family: 'Josefin Sans', sans-serif;
 
    height: inherit;
    font-family: 'Oswald', sans-serif;
-   font-size: 2rem;
-   padding-bottom: 2rem;
+   font-size: 3.2rem;
+   padding-bottom: 4rem;
+   padding-top: 4rem;
  }
 
+.celebrity-styles {
+
+   font-size: 1.5rem;
+   font-family: 'Playfair Display', serif;
+
+}
 
  .company-cookie-text {
       font-size: 1.9rem;
@@ -144,25 +159,26 @@ font-family: 'Josefin Sans', sans-serif;
    background-image: url(../img/coffee-cookie.jpg);
    background-size: cover;
    height: 35rem;
-   width: 100%;
+   width: auto;
+
 
 
  }
 
  .cookie-img-doors-2 {
-   background-image: url(../img/coffee-cookie.jpg);
+   background-image: url(../img/gourmet-cookies.jpg);
    background-size: cover;
    height: 35rem;
-   width: 100%;
+   width: auto;
 
 
  }
 
  .cookie-img-doors-3 {
-   background-image: url(../img/coffee-cookie.jpg);
+   background-image: url(../img/coffee-whipped.jpg);
    background-size: cover;
    height: 35rem;
-   width: 100%;
+   width: auto;
 
 
  }

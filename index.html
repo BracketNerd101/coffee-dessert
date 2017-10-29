@@ -12,11 +12,17 @@
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700|Lato:700|Oswald:700|Playfair+Display:700|Poppins:500" rel="stylesheet">
     <!-- google fonts -->
+    <!-- hover effect css -->
+    <link rel="stylesheet" href="css/hover-effects.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/demo.css">
+    <!-- hover effect css -->
     <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
     <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
     <link rel="stylesheet" href="css/cookie.css">
     <link rel="stylesheet" href="css/overlay-nav.css">
     <link rel="stylesheet" href="css/main-global.css">
+
   </head>
   <body>
 
@@ -78,7 +84,7 @@
     <hr>
     <h4 class="lead text-dark banner-copy">Recipes for banking gourmet desserts.</h4>
     <br><br> <br><br>
-    <h2 class="text-light lead">Scroll down <i class="fa fa-chevron-down"></i> </h2>
+    <h2 class="text-light lead scroll-down-text">Scroll down <i class="fa fa-chevron-down"></i> </h2>
   </div>
 </div><!-- end of column-->
 
@@ -105,20 +111,20 @@
             <br><br>
             <h2 class="text-light cookie-quotes">
               "Me want cookie!"</h2>
-            <p class="lead">— Cookie Monster</p>
+            <p class="lead celebrity-styles">— Cookie Monster</p>
           </div>
           <div class="carousel-item">
               <br><br>
             <h2 class="text-light cookie-quotes">
-              "I think baking cookies is equal to Queen Victoria running an empire. There's no difference in how seriously you take the job, how seriously you approach your whole life."
+              "I think baking cookies is equal to Queen Victoria running an empire."
               </h2>
-            <p class="lead">— Martha Stewart</p>
+            <p class="lead celebrity-styles">— Martha Stewart</p>
           </div>
           <div class="carousel-item">
               <br><br>
             <h2 class="text-light cookie-quotes">
               "I suppose I could have stayed home and baked cookies and had teas."</h2>
-            <p class="lead">— Hilary Clinto</p>
+            <p class="lead celebrity-styles">— Hilary Clinton</p>
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -136,9 +142,28 @@
 
 <div class="container-fluid">
   <div class="row">
-    <a href="#" class="col-sm-12 col-md-4 col-lg-5 cookie-img-doors-1">
+       <a href="#"  class="hover-effects col-sm-12 col-md-4 col-lg-5 text-center cookie-img-doors-1"> 
+         <div class="effect-sarah">
+                 <img src="img/coffee.jpg" alt="coffee cup"/>
+                 <figcaption>
+                   <h2>Free <span>Sarah</span></h2>
+                   <p>Sarah likes to watch clouds. She's quite depressed.</p>
+                   <a href="#">View more</a>
+             </figcaption>
+           </div>
+       </a>
+    <!-- <a href="#" class="hover-effects col-sm-12 col-md-4 col-lg-5 cookie-img-doors-1">
+        <div class="effect-chico">
+
+            <h2>Silly <span>Chico</span></h2>
+            <p>Chico's main fear was missing the morning bus.</p>
+            <a href="#">View more</a>
+
+        </div>
+    </a> -->
+    <!-- <a href="#" class="col-sm-12 col-md-4 col-lg-5 cookie-img-doors-1">
       <img src="" alt="">
-    </a href="#">
+    </a href="#"> -->
     <a href="#" class="col-sm-12 col-md-4 col-lg-7 cookie-img-doors-2">
       <img src="" alt="">
     </a href="#">
@@ -150,10 +175,11 @@
 
 <div class="container-fluid cookie-quote-spacing">
   <div class="row">
-    <div class="col-sm-12 col-md-12 col-lg-12"><img src="" alt="" class="border border-dark rounded-cirlce">
-        <h2>
-          <p class="te">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, facere nobis eius maiores officia culpa, consectetur a, provident debitis delectus quam eos natus!</p></h2>
-      </img></div>
+    <div class="col-sm-12 col-md-12 col-lg-12">
+      <img src="" alt="" class="border border-dark rounded-cirlce">
+        <h2> </h2>
+          <p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, facere nobis eius maiores officia culpa, consectetur a, provident debitis delectus quam eos natus!</p>
+      </div>
   </div> <!-- end row -->
 </div><!-- end of container fluid -->
 
@@ -226,11 +252,7 @@
     </div><!-- end of div -->
   </div><!-- end of row -->
 </div><!-- end of container fluid -->
-
-<!-- end of the footer section           -->
-
-
-
+<!-- end of the footer section -->
 
     <!-- Optional JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
