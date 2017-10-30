@@ -32,7 +32,7 @@ font-family: 'Josefin Sans', sans-serif;
 
 .logo-style {
 
-  font-size: 2.2rem;
+  font-size: 1.5rem;
   margin-top: 2.2rem;
   margin-left: 1.5rem;
   font-family: 'Playfair Display', serif;
@@ -75,14 +75,11 @@ font-family: 'Josefin Sans', sans-serif;
 
 }
 
-
-
 .nav-link-style {
 
   margin-top: 1rem;
   font-size: 5rem !important;
   font-family: 'Oswald', sans-serif;
-
 
  }
 
@@ -92,7 +89,6 @@ font-family: 'Josefin Sans', sans-serif;
   font-size: 5rem !important;
 
  }
-
 
  .cookie-styles {
 
@@ -108,9 +104,7 @@ font-family: 'Josefin Sans', sans-serif;
   font-family: 'Oswald', sans-serif;
   font-size: 2rem;
 
-
  }
-
 
 .cookie-quote-spacing {
 
@@ -118,7 +112,6 @@ font-family: 'Josefin Sans', sans-serif;
   padding-top: 2rem;
   padding-bottom: 5rem;
   margin-top: 4rem;
-
 
  }
 
@@ -144,14 +137,12 @@ font-family: 'Josefin Sans', sans-serif;
       font-size: 2.9rem;
       font-family: 'Oswald', sans-serif;
       margin-top: 4rem;
-
  }
 
 .carousel-indicators {
 
   top: 16rem;
 }
-
 
  .cookie-img-doors-1 {
    opacity: 1;
@@ -168,7 +159,6 @@ font-family: 'Josefin Sans', sans-serif;
 #hover-link-style {
 
     text-decoration: none;
-
 
 }
 
@@ -215,10 +205,7 @@ font-family: 'Josefin Sans', sans-serif;
    height: 35rem;
    width: auto;
 
-
  }
-
- 
 
 .footer-spacing-styles {
   height: inherit;

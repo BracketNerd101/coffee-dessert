@@ -1,3 +1,15 @@
+
+/*------------------
+
+font-family: 'Oswald', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+
+----------------------*/
+
+
 .chocolate-intro {
   opacity: 1;
   background-image: url(../img/milk-cookies.jpg);
@@ -8,13 +20,36 @@
 
 }
 
-
 .chocolate-rec-1 {
   opacity: 1;
   background-image: url(../img/blue-berrybanner.jpg);
   background-size: cover;
   height: 35rem;
   width: auto;
+
+
+}
+
+.recipe-header {
+  font-size: 3rem;
+  font-family: 'Playfair Display', serif;
+
+
+
+}
+
+.recipe-body {
+  font-size: 1.1rem;
+  font-family: 'Poppins', sans-serif;
+
+
+
+}
+
+.recipe-container {
+
+
+  margin-top: 12rem;
 
 
 }
