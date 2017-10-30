@@ -14,25 +14,53 @@ font-family: 'Josefin Sans', sans-serif;
   opacity: 1;
   background-image: url(../img/milk-cookies.jpg);
   background-size: cover;
-  height: 35rem;
-  width: auto;
+  height: 45rem;
+  width: 100%;
 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: auto;
 
 }
 
 .chocolate-rec-1 {
   opacity: 1;
-  background-image: url(../img/blue-berrybanner.jpg);
+  background-image: url(../img/rees-cookies.jpg);
   background-size: cover;
-  height: 35rem;
-  width: auto;
+  height: 15rem;
+  width: 100%;
 
 
 }
 
+.chocolate-rec-2 {
+  opacity: 1;
+  background-image: url(../img/coffee-art.jpg);
+  background-size: cover;
+  height: 15rem;
+  width: 100%;
+
+
+}
+
+.chocolate-rec-3 {
+  opacity: 1;
+  background-image: url(../img/blue-berrybanner.jpg);
+  background-size: cover;
+  height: 15rem;
+  width: 100%;
+
+
+}
+
+
+
 .recipe-header {
   font-size: 3rem;
   font-family: 'Playfair Display', serif;
+  margin-top: 1rem;
 
 
 
@@ -41,6 +69,7 @@ font-family: 'Josefin Sans', sans-serif;
 .recipe-body {
   font-size: 1.1rem;
   font-family: 'Poppins', sans-serif;
+  line-height: 1.8rem;
 
 
 
@@ -49,7 +78,7 @@ font-family: 'Josefin Sans', sans-serif;
 .recipe-container {
 
 
-  margin-top: 12rem;
+  margin-top: 10rem;
 
 
 }
