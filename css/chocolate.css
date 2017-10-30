@@ -7,3 +7,14 @@
 
 
 }
+
+
+.chocolate-rec-1 {
+  opacity: 1;
+  background-image: url(../img/blue-berrybanner.jpg);
+  background-size: cover;
+  height: 35rem;
+  width: auto;
+
+
+}
