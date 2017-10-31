@@ -1,6 +1,6 @@
 body {
 
-background-color: #d2d2d2 ;
+background-color: #f1f1f1;
 
 }
 
@@ -90,6 +90,40 @@ font-family: 'Josefin Sans', sans-serif;
 
  }
 
+.company-intro-sect{
+
+   margin-bottom: 0.5rem;
+
+}
+
+.strong-intro {
+
+   font-size: 2rem;
+   margin-bottom: 1.5rem;
+   margin-top: 1.5rem;
+   font-family: 'oswald', sans-serif;
+
+}
+
+ .body-intro {
+
+   font-size: 0.9rem;
+   font-family: 'Lato', sans-serif;
+
+
+
+ }
+
+
+ .img-size-style {
+
+    width: 100%;
+    height: 16rem;
+    background-size: cover;
+
+
+ }
+
  .cookie-styles {
 
    margin-top: 1rem !important;
@@ -111,7 +145,7 @@ font-family: 'Josefin Sans', sans-serif;
   height: 35rem;
   padding-top: 2rem;
   padding-bottom: 5rem;
-  margin-top: 4rem;
+  margin-top: 10rem;
 
  }
 
@@ -163,11 +197,23 @@ font-family: 'Josefin Sans', sans-serif;
 }
 
  .cookie-img-doors-text {
-   opacity: 1;
+   opacity: 0.9;
    padding-top: 3rem;
    width: auto;
-   font-size: 5rem;
+   font-size: 3.2rem;
    font-family: 'Playfair Display', serif;
+   transition: 0.2s;
+   transition-duration: 1s;
+
+ }
+
+ .cookie-img-doors-text:hover {
+   opacity: 1;
+   padding-top: 4rem;
+   width: auto;
+   font-size: 3.2rem;
+   font-family: 'Playfair Display', serif;
+   transition: 0.2s;
    transition-duration: 1s;
 
  }
@@ -207,6 +253,61 @@ font-family: 'Josefin Sans', sans-serif;
 
  }
 
+
+ /*----
+
+ column 3 recipes things
+ ------------------------------------------------------*/
+
+ .cookie-img-doors-4 {
+   opacity: 1;
+   background-image: url(../img/second-heart-banner.jpg);
+   background-size: cover;
+   height: 20rem;
+   width: auto;
+
+ }
+ .cookie-img-doors-5 {
+   opacity: 1;
+   background-image: url(../img/coffee-art.jpg);
+   background-size: cover;
+   height: 20rem;
+   width: auto;
+
+ }
+
+ .cookie-img-doors-6 {
+   opacity: 1;
+   background-image: url(../img/berry-cake.jpg);
+   background-size: cover;
+   height: 20rem;
+   width: auto;
+
+ }
+ .cookie-img-doors-7 {
+   opacity: 1;
+   background-image: url(../img/blue-berrybanner.jpg);
+   background-size: cover;
+   height: 20rem;
+   width: auto;
+
+ }
+ .cookie-img-doors-8 {
+   opacity: 1;
+   background-image: url(../img/rasberry-cake.jpg);
+   background-size: cover;
+   height: 20rem;
+   width: auto;
+
+ }
+ .cookie-img-doors-9 {
+   opacity: 1;
+   background-image: url(../img/small-dessert.jpg);
+   background-size: cover;
+   height: 20rem;
+   width: auto;
+
+ }
 .footer-spacing-styles {
   height: inherit;
 
