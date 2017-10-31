@@ -1,6 +1,6 @@
 body {
 
-background-color: #d2d2d2 ;
+background-color: #ffffff ;
 
 }
 
@@ -108,12 +108,45 @@ font-family: 'Josefin Sans', sans-serif;
 
 .cookie-quote-spacing {
 
-  height: 35rem;
-  padding-top: 2rem;
-  padding-bottom: 5rem;
+  height: inherit;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
   margin-top: 4rem;
 
  }
+
+.img-size-style {
+
+    height: 16rem;
+    width: 100%;
+
+}
+
+.company-intro-sect {
+
+      margin-top: 4rem;
+
+}
+
+ .strong-intro {
+
+   font-size: 2rem;
+   margin-bottom: 2rem;
+   margin-top: 2rem;
+   font-family: 'Oswald', sans-serif;
+
+
+ }
+
+.body-intro {
+
+  font-family: 'Lato', sans-serif;
+  font-size: 0.9rem;
+
+
+
+
+}
 
  .cookie-quotes {
 
@@ -162,14 +195,44 @@ font-family: 'Josefin Sans', sans-serif;
 
 }
 
- .cookie-img-doors-text {
+.cookie-img-doors-text {
+  opacity: 1;
+  padding-top: 3rem;
+  width: auto;
+  font-size: 5rem;
+  font-family: 'Playfair Display', serif;
+  transition-duration: 1s;
+
+}
+
+.cookie-img-doors-text:hover {
+  opacity: 1;
+  padding-top: 6rem;
+  width: auto;
+  font-size: 5rem;
+  font-family: 'Playfair Display', serif;
+  transition-duration: 1s;
+
+}
+
+ .cookie-img-doors-mini {
+   opacity: 0;
+   padding-top: 3rem;
+   width: auto;
+   font-size: 5rem;
+   font-family: 'Playfair Display', serif;
+   /*transition-duration: 0*/
+
+ }
+
+ .cookie-img-doors-mini:hover {
    opacity: 1;
    padding-top: 3rem;
    width: auto;
    font-size: 5rem;
    font-family: 'Playfair Display', serif;
-   transition-duration: 1s;
-
+   /*transition-duration: 0*/
+   transition: 0.3s;
  }
 
  .body-door-text {
@@ -223,7 +286,7 @@ font-family: 'Josefin Sans', sans-serif;
  }
  .cookie-img-doors-5 {
    opacity: 1;
-   background-image: url(../img/coffee-art.jpg);
+   background-image: url(../img-f/coffee-art.png);
    background-size: cover;
    height: 20rem;
    width: auto;
@@ -232,15 +295,14 @@ font-family: 'Josefin Sans', sans-serif;
 
  .cookie-img-doors-6 {
    opacity: 1;
-   background-image: url(../img/berry-cake.jpg);
-   background-size: cover;
+   background-image: url(../img-f/melted-berry.png);  background-size: cover;
    height: 20rem;
    width: auto;
 
  }
  .cookie-img-doors-7 {
    opacity: 1;
-   background-image: url(../img/blue-berrybanner.jpg);
+   background-image: url(../img-f/blue-berrybanner.png);
    background-size: cover;
    height: 20rem;
    width: auto;
@@ -248,7 +310,7 @@ font-family: 'Josefin Sans', sans-serif;
  }
  .cookie-img-doors-8 {
    opacity: 1;
-   background-image: url(../img/rasberry-cake.jpg);
+   background-image: url(../img-f/dec-cookies.png);
    background-size: cover;
    height: 20rem;
    width: auto;
@@ -256,7 +318,7 @@ font-family: 'Josefin Sans', sans-serif;
  }
  .cookie-img-doors-9 {
    opacity: 1;
-   background-image: url(../img/small-dessert.jpg);
+   background-image: url(../img-f/cup-cakes.png);
    background-size: cover;
    height: 20rem;
    width: auto;

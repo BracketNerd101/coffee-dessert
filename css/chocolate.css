@@ -37,7 +37,7 @@ font-family: 'Josefin Sans', sans-serif;
 
 .chocolate-rec-2 {
   opacity: 1;
-  background-image: url(../img-f/coffee-art.png);
+  background-image: url(../img/venita.jpg);
   background-size: cover;
   height: 15rem;
   width: 100%;
@@ -60,7 +60,7 @@ font-family: 'Josefin Sans', sans-serif;
 .recipe-header {
   font-size: 3rem;
   font-family: 'Playfair Display', serif;
-  margin-top: 1rem;
+  margin-top: auto;
 
 
 
@@ -70,6 +70,7 @@ font-family: 'Josefin Sans', sans-serif;
   font-size: 1.1rem;
   font-family: 'Poppins', sans-serif;
   line-height: 1.8rem;
+  margin-bottom: 2rem;
 
 
 
