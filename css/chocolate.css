@@ -37,7 +37,7 @@ font-family: 'Josefin Sans', sans-serif;
 
 .chocolate-rec-2 {
   opacity: 1;
-  background-image: url(../img/coffee-art.jpg);
+  background-image: url(../img-f/coffee-art.png);
   background-size: cover;
   height: 15rem;
   width: 100%;
@@ -47,7 +47,7 @@ font-family: 'Josefin Sans', sans-serif;
 
 .chocolate-rec-3 {
   opacity: 1;
-  background-image: url(../img/blue-berrybanner.jpg);
+  background-image: url(../img-f/blue-berrybanner.png);
   background-size: cover;
   height: 15rem;
   width: 100%;
