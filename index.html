@@ -1,320 +1,337 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Cookie recipes</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700|Lato:700|Oswald:700|Playfair+Display:700|Poppins:500" rel="stylesheet">
-    <!-- google fonts -->
-    <!-- hover effect css -->
-    <link rel="stylesheet" href="css/hover-effects.min.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/demo.css">
-    <!-- hover effect css -->
-    <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
-    <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
-    <link rel="stylesheet" href="css/cookie.css">
-    <link rel="stylesheet" href="css/overlay-nav.css">
-    <link rel="stylesheet" href="css/main-global.css">
-
-  </head>
-  <body>
-
-    <header class="cd-auto-hide-header nav-style">
-    	<nav class="navbar navbar-light justify-content-between">
-          <!-- <div class="col-sm-3 col-md-3 col-lg-3 logo-style"> -->
+   <head>
+      <title>Cookie recipes</title>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+      <!-- google fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700|Lato:700|Oswald:700|Playfair+Display:700|Poppins:500" rel="stylesheet">
+      <!-- google fonts -->
+      <!-- hover effect css -->
+      <link rel="stylesheet" href="css/hover-effects.min.css">
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/demo.css">
+      <!-- hover effect css -->
+      <link rel="stylesheet" href="css/reset.css">
+      <!-- CSS reset -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Resource style -->
+      <link rel="stylesheet" href="css/cookie.css">
+      <link rel="stylesheet" href="css/overlay-nav.css">
+      <link rel="stylesheet" href="css/main-global.css">
+   </head>
+   <body>
+      <header class="cd-auto-hide-header nav-style">
+         <nav class="navbar navbar-light justify-content-between">
+            <!-- <div class="col-sm-3 col-md-3 col-lg-3 logo-style"> -->
             <ul class="nav">
-              <a href="index.html" class="logo-btn-link"><h1 class="text-dark logo-style">Coffee & Cookies</h1></a>
-              </li>
+               <a href="index.html" class="logo-btn-link">
+                  <h1 class="text-dark logo-style">Coffee & Cookies</h1>
+               </a>
+               </li>
             </ul>
-          <!-- </div> -->
-              <ul class="nav overlay-button justify-content-end">
-                <li class="nav-item text-dark" onclick="openNav()">
+            <!-- </div> -->
+            <ul class="nav overlay-button justify-content-end">
+               <li class="nav-item text-dark" onclick="openNav()">
                   <span style="cursor:pointer"> <i class="fa fa-bars text-dark" aria-hidden="true"></i> &nbsp; </span>
-                </li>
-              </ul>
-        </nav> <!-- end of row-->
-      <!-- The overlay -->
-    </header> <!-- .cd-auto-hide-header -->
-
-    <div id="myNav" class="overlay bg-dark">
-
-     <!-- Button to close the overlay navigation -->
-     <a href="javascript:void(0)" class="closebtn close-index" onclick="closeNav()">&times;</a>
-
-     <!-- Overlay content -->
-     <div class="container">
-       <div class="row">
-         <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 text-left">
-           <div class="overlay-content nav-link-style">
-             <a href="index.html" class="text-light">All Cookies</a>
-             <a href="chocolate.html" class="text-light">Chocolate </a>
-             <a href="sugar.html" class="text-light">Sugar</a>
-             <a href="pb.html" class="text-light">Peanut Butter</a>
-           </div> <!-- overlay content-->
-         </div><!-- end of column-->
-         <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 nav-social-links text-left">
-           <div class="overlay-content">
-             <ul class="nav">
-                <li class="nav-item">
-                  <a class="nav-link text-light" href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-light" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-light" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                </li>
+               </li>
             </ul>
-           </div> <!-- overlay content-->
-         </div><!-- end of column-->
-       </div>
-     </div>
-   </div><!-- end of MyNav -->
-
-   <div class="jumbotron jumbotron-fluid text-center coffee-intro">
-  <div class="container">
-    <h1 class="display-3 text-dark banner-text">Coffee Pairings. & Cookie Desserts </h1>
-    <hr>
-    <h4 class="lead text-dark banner-copy">Recipes for banking gourmet desserts.</h4>
-    <br><br> <br><br>
-    <h2 class="text-light lead scroll-down-text">Scroll down <i class="fa fa-chevron-down"></i> </h2>
-  </div>
-</div><!-- end of column-->
-
-<div class="container-fluid cookie-quote-spacing">
-  <div class="row">
-    <div class="col-sm-12 col-md-4 col-lg-4 text-center company-intro-sect">
-      <div src="" alt="" class="border border-warning  img-size-style-1"></div>
-      <h2 class="text-dark strong-intro"> Awesome Recipes</h2>
-      <p class="text-dark body-intro">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates mollitia laborum assumenda, quidem architecto quaerat.</p>
-    </div>
-    <div class="col-sm-12 col-md-4 col-lg-4 text-center company-intro-sect">
-      <div src="" alt="" class="border border-warning  img-size-style-2"></div>
-      <h2 class="text-dark strong-intro">Cooking Directions</h2>
-      <p class="text-dark body-intro">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non ab doloribus, ipsam sequi tempore assumenda.</p>
-    </div>
-    <div class="col-sm-12 col-md-4 col-lg-4 text-center company-intro-sect">
-      <div src="" alt="" class="border border-warning  img-size-style-3"></div>
-      <h2 class="text-dark strong-intro">Good Eats. Yum!</h2>
-      <p class="text-dark body-intro">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum iusto libero deleniti, fugit laboriosam minima!</p>
-    </div>
-  </div> <!-- end row -->
-</div><!-- end of container fluid -->
-
-<div class="container-fluid bg-warning cookie-quotes">
-  <div class="row">
-    <div class="col-sm-12 col-md-12 col-lg-12 text-dark text-center cookie-quote-spacing">
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class=" slide-indicators-styles">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <h2 class="text-dark cookie-quotes">
-              "Me want cookie! Cookie is good for me! Me will always love cookie."</h2>
-            <p class="lead celebrity-styles">— Cookie Monster</p>
-          </div>
-          <div class="carousel-item">
-
-            <h2 class="text-dark cookie-quotes">
-              "I think baking cookies is equal to <br>Queen Victoria running an empire."
-              </h2>
-            <p class="lead celebrity-styles">— Martha Stewart</p>
-          </div>
-          <div class="carousel-item">
-
-            <h2 class="text-dark cookie-quotes">
-              "I suppose I could have stayed home <br> and baked cookies and had teas."</h2>
-            <p class="lead celebrity-styles">— Hilary Clinton</p>
-          </div>
-        </div>
-        <a class="carousel-control-prev text-dark" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only bg-dark">Previous</span>
-        </a>
-        <a class="carousel-control-next text-dark" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only bg-dark">Next</span>
-        </a>
+         </nav>
+         <!-- end of row-->
+         <!-- The overlay -->
+      </header>
+      <!-- .cd-auto-hide-header -->
+      <div id="myNav" class="overlay bg-dark">
+         <!-- Button to close the overlay navigation -->
+         <a href="javascript:void(0)" class="closebtn close-index" onclick="closeNav()">&times;</a>
+         <!-- Overlay content -->
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 text-left">
+                  <div class="overlay-content nav-link-style">
+                     <a href="index.html" class="text-light">All Cookies</a>
+                     <a href="chocolate.html" class="text-light">Chocolate </a>
+                     <a href="sugar.html" class="text-light">Sugar</a>
+                     <a href="pb.html" class="text-light">Peanut Butter</a>
+                  </div>
+                  <!-- overlay content-->
+               </div>
+               <!-- end of column-->
+               <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 nav-social-links text-left">
+                  <div class="overlay-content">
+                     <ul class="nav">
+                        <li class="nav-item">
+                           <a class="nav-link text-light" href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link text-light" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link text-light" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                     </ul>
+                  </div>
+                  <!-- overlay content-->
+               </div>
+               <!-- end of column-->
+            </div>
+         </div>
       </div>
-    </div>
-  </div> <!-- end row -->
-</div> <!-- end of container-->
-
-<div class="container-fluid">
-  <div class="row">
-       <a href="chocolate.html" id="hover-link-style"  class="col-sm-12 col-md-4 col-lg-5 text-center cookie-img-doors-1">
-          <div class="col-lg-12">
-            <h2 class="text-center text-dark cookie-img-doors-text">
-                  Chocolate Chip <br>Cookies
-                  <p class="lead text-dark body-door-text">
-                    Great recipes for chocolate chip cookies
-
-                  </p>
-            </h2>
-          </div>
-       </a><!-- -->
-    <a href="sugar.html" id="hover-link-style"  class="col-sm-12 col-md-4 col-lg-7 cookie-img-doors-2">
-      <div class="col-lg-12">
-        <h2 class="text-center text-dark cookie-img-doors-text">
-              Sugar Cookies
-            <p class="lead text-dark body-door-text">
-                Learn some great recipes for Peanut butter cookies.
-
-            </p>
-        </h2>
+      <!-- end of MyNav -->
+      <div class="jumbotron jumbotron-fluid text-center coffee-intro">
+         <div class="container">
+            <h1 class="display-3 text-dark banner-text">Coffee Pairings. & Cookie Desserts </h1>
+            <hr>
+            <h4 class="lead text-dark banner-copy">Recipes for banking gourmet desserts.</h4>
+            <br><br> <br><br>
+            <h2 class="text-light lead scroll-down-text">Scroll down <i class="fa fa-chevron-down"></i> </h2>
+         </div>
       </div>
-    </a><!-- -->
-    <a href="pb.html" id="hover-link-style"  class="col-sm-12 col-md-4 col-lg-12 cookie-img-doors-3">
-      <div class="col-lg-12">
-        <h2 class="text-center text-dark cookie-img-doors-text">
-              Peaut Butter Cookies
-            <p class="lead text-dark body-door-text">
-                Fantastic Pairings that go well with chocolate chip cookies.
-
-            </p>
-        </h2>
+      <!-- end of column-->
+      <div class="container-fluid cookie-quote-spacing">
+         <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4 text-center company-intro-sect">
+               <div src="" alt="" class="border border-warning  img-size-style-1"></div>
+               <h2 class="text-dark strong-intro"> Awesome Recipes</h2>
+               <p class="text-dark body-intro">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates mollitia laborum assumenda, quidem architecto quaerat.
+               </p>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 text-center company-intro-sect">
+               <div src="" alt="" class="border border-warning  img-size-style-2"></div>
+               <h2 class="text-dark strong-intro">Cooking Directions</h2>
+               <p class="text-dark body-intro">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non ab doloribus, ipsam sequi tempore assumenda.
+               </p>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 text-center company-intro-sect">
+               <div src="" alt="" class="border border-warning  img-size-style-3"></div>
+               <h2 class="text-dark strong-intro">Good Eats. Yum!</h2>
+               <p class="text-dark body-intro">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum iusto libero deleniti, fugit laboriosam minima!
+               </p>
+            </div>
+         </div>
+         <!-- end row -->
       </div>
-    </a> <!-- -->
-  </div> <!-- end of row -->
-</div> <!-- end of container fluid -->
-
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-sm-12 col-md-4 col-lg-4 cookie-img-doors-4">
-      <h2 href="index.html" class="text-center text-danger cookie-img-doors-mini">
-            Rasberry Cookies
-      </h2>
-    </div>
-    <div class="col-sm-12 col-md-4 col-lg-4 cookie-img-doors-5">
-      <h2 class="text-center text-white cookie-img-doors-mini">
-            Strawberry Cookies
-      </h2>
-    </div>
-    <div class="col-sm-12 col-md-4 col-lg-4 cookie-img-doors-6">
-      <h2 class="text-center text-primary cookie-img-doors-mini">
-            Vanilla Cookies
-      </h2>
-    </div>
-    <div class="col-sm-12 col-md-4 col-lg-4 cookie-img-doors-7">
-      <h2 class="text-center text-light cookie-img-doors-mini">
-            Double Fudge Cookies
-      </h2>
-    </div>
-    <div class="col-sm-12 col-md-4 col-lg-4 cookie-img-doors-8">
-      <h2 class="text-center text-light cookie-img-doors-mini">
-            Wedding Cookies
-      </h2>
-    </div>
-    <div class="col-sm-12 col-md-4 col-lg-4 cookie-img-doors-9">
-      <h2 class="text-center text-danger cookie-img-doors-mini">
-            Honey Cookies
-      </h2>
-    </div>
-  </div> <!-- end of row -->
-</div><!-- end of container fluid -->
-
-<div class="container-fluid footer-spacing-styles bg-dark">
-  <div class="row">
-    <div class="col-lg-12 footer-text-styles">
-      <ul class="nav">
-        <li class="nav-item">
-          <a class="nav-link text-light" href="#"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-light" href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-light" href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
-          </a>
-        </li>
-      </ul>
-      <hr class="bg-light">
-    </div> <!--  end of social link -->
-    <div class="col-sm-3 col-md-6 col-lg-3 footer-text-styles">
-      <ul class="nav flex-column">
-        <li class="nav-item">
-          <a class="nav-link text-light footer-text-styles" href="index.html">All Cookies</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-light footer-text-styles" href="pb.html">Peanut Butter</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-light footer-text-styles" href="chocolate.html">Chocolate Chip</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-light footer-text-styles" href="coffee.html">Coffee Pairings</a>
-        </li>
-      </ul>
-    </div><!-- end of div -->
-    <div class="col-sm-3 col-md-6 col-lg-3 footer-text-styles">
-      <ul class="nav flex-column">
-        <li class="nav-item">
-          <a class="nav-link text-light footer-text-styles" href="#">Other Recipes</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-light footer-text-styles" href="#">Starbucks</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-light footer-text-styles" href="#">Dunkin Donuts</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-light footer-text-styles" href="#">Bowl Bean</a>
-        </li>
-      </ul>
-    </div><!-- end of div -->
-    <div class="col-sm-3 col-md-12 col-lg-3 footer-text-styles">
-      <ul class="nav flex-column">
-        <li class="nav-item">
-          <a class="nav-link text-light footer-text-styles" href="#">Coffee Supreme</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-light footer-text-styles" href="#">Coffee Corner</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-light footer-text-styles" href="#">Lake Barista</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-light footer-text-styles" href="#">French Press Dream</a>
-        </li>
-      </ul>
-    </div><!-- end of div -->
-    <div class="col-sm-3 col-md-12 col-lg-3 footer-text-styles">
-      <ul class="nav">
-        <li class="nav-item">
-          <a class="nav-link text-light" href="#">Coffee and Cookies (i)</a>
-        </li>
-        </li>
-      </ul>
-    </div><!-- end of div -->
-  </div><!-- end of row -->
-</div><!-- end of container fluid -->
-<!-- end of the footer section -->
-
-    <!-- Optional JavaScript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-    <script>
-    	if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
-    </script>
-    <script src="js/main.js"></script> <!-- Resource jQuery -->
-    <script src="js/overlay.js"></script>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-  </body>
+      <!-- end of container fluid -->
+      <div class="container-fluid bg-warning cookie-quotes">
+         <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 text-dark text-center cookie-quote-spacing">
+               <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                  <ol class=" slide-indicators-styles">
+                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                     <div class="carousel-item active">
+                        <h2 class="text-dark cookie-quotes">
+                           "Me want cookie! Cookie is good for me! Me will always love cookie."
+                        </h2>
+                        <p class="lead celebrity-styles">— Cookie Monster</p>
+                     </div>
+                     <div class="carousel-item">
+                        <h2 class="text-dark cookie-quotes">
+                           "I think baking cookies is equal to <br>Queen Victoria running an empire."
+                        </h2>
+                        <p class="lead celebrity-styles">— Martha Stewart</p>
+                     </div>
+                     <div class="carousel-item">
+                        <h2 class="text-dark cookie-quotes">
+                           "I suppose I could have stayed home <br> and baked cookies and had teas."
+                        </h2>
+                        <p class="lead celebrity-styles">— Hilary Clinton</p>
+                     </div>
+                  </div>
+                  <a class="carousel-control-prev text-dark" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only bg-dark">Previous</span>
+                  </a>
+                  <a class="carousel-control-next text-dark" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only bg-dark">Next</span>
+                  </a>
+               </div>
+            </div>
+         </div>
+         <!-- end row -->
+      </div>
+      <!-- end of container-->
+      <div class="container-fluid">
+         <div class="row">
+            <a href="chocolate.html" id="hover-link-style"  class="col-sm-12 col-md-4 col-lg-5 text-center cookie-img-doors-1">
+               <div class="col-lg-12">
+                  <h2 class="text-center text-dark cookie-img-doors-text">
+                     Chocolate Chip <br>Cookies
+                     <p class="lead text-dark body-door-text">
+                        Great recipes for chocolate chip cookies
+                     </p>
+                  </h2>
+               </div>
+            </a>
+            <!-- -->
+            <a href="sugar.html" id="hover-link-style"  class="col-sm-12 col-md-4 col-lg-7 cookie-img-doors-2">
+               <div class="col-lg-12">
+                  <h2 class="text-center text-dark cookie-img-doors-text">
+                     Sugar Cookies
+                     <p class="lead text-dark body-door-text">
+                        Learn some great recipes for Peanut butter cookies.
+                     </p>
+                  </h2>
+               </div>
+            </a>
+            <!-- -->
+            <a href="pb.html" id="hover-link-style"  class="col-sm-12 col-md-4 col-lg-12 cookie-img-doors-3">
+               <div class="col-lg-12">
+                  <h2 class="text-center text-dark cookie-img-doors-text">
+                     Peaut Butter Cookies
+                     <p class="lead text-dark body-door-text">
+                        Fantastic Pairings that go well with chocolate chip cookies.
+                     </p>
+                  </h2>
+               </div>
+            </a>
+            <!-- -->
+         </div>
+         <!-- end of row -->
+      </div>
+      <!-- end of container fluid -->
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4 cookie-img-doors-4">
+               <h2 href="index.html" class="text-center text-danger cookie-img-doors-mini">
+                  Rasberry Cookies
+               </h2>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 cookie-img-doors-5">
+               <h2 class="text-center text-white cookie-img-doors-mini">
+                  Strawberry Cookies
+               </h2>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 cookie-img-doors-6">
+               <h2 class="text-center text-primary cookie-img-doors-mini">
+                  Vanilla Cookies
+               </h2>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 cookie-img-doors-7">
+               <h2 class="text-center text-light cookie-img-doors-mini">
+                  Double Fudge Cookies
+               </h2>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 cookie-img-doors-8">
+               <h2 class="text-center text-light cookie-img-doors-mini">
+                  Wedding Cookies
+               </h2>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 cookie-img-doors-9">
+               <h2 class="text-center text-danger cookie-img-doors-mini">
+                  Honey Cookies
+               </h2>
+            </div>
+         </div>
+         <!-- end of row -->
+      </div>
+      <!-- end of container fluid -->
+      <div class="container-fluid footer-spacing-styles bg-dark">
+         <div class="row">
+            <div class="col-lg-12 footer-text-styles">
+               <ul class="nav">
+                  <li class="nav-item">
+                     <a class="nav-link text-light" href="#"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link text-light" href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link text-light" href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                     </a>
+                  </li>
+               </ul>
+               <hr class="bg-light">
+            </div>
+            <!--  end of social link -->
+            <div class="col-sm-3 col-md-6 col-lg-3 footer-text-styles">
+               <ul class="nav flex-column">
+                  <li class="nav-item">
+                     <a class="nav-link text-light footer-text-styles" href="index.html">All Cookies</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link text-light footer-text-styles" href="pb.html">Peanut Butter</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link text-light footer-text-styles" href="chocolate.html">Chocolate Chip</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link text-light footer-text-styles" href="coffee.html">Coffee Pairings</a>
+                  </li>
+               </ul>
+            </div>
+            <!-- end of div -->
+            <div class="col-sm-3 col-md-6 col-lg-3 footer-text-styles">
+               <ul class="nav flex-column">
+                  <li class="nav-item">
+                     <a class="nav-link text-light footer-text-styles" href="#">Other Recipes</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link text-light footer-text-styles" href="#">Starbucks</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link text-light footer-text-styles" href="#">Dunkin Donuts</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link text-light footer-text-styles" href="#">Bowl Bean</a>
+                  </li>
+               </ul>
+            </div>
+            <!-- end of div -->
+            <div class="col-sm-3 col-md-12 col-lg-3 footer-text-styles">
+               <ul class="nav flex-column">
+                  <li class="nav-item">
+                     <a class="nav-link text-light footer-text-styles" href="#">Coffee Supreme</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link text-light footer-text-styles" href="#">Coffee Corner</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link text-light footer-text-styles" href="#">Lake Barista</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link text-light footer-text-styles" href="#">French Press Dream</a>
+                  </li>
+               </ul>
+            </div>
+            <!-- end of div -->
+            <div class="col-sm-3 col-md-12 col-lg-3 footer-text-styles">
+               <ul class="nav">
+                  <li class="nav-item">
+                     <a class="nav-link text-light" href="#">Coffee and Cookies (i)</a>
+                  </li>
+                  </li>
+               </ul>
+            </div>
+            <!-- end of div -->
+         </div>
+         <!-- end of row -->
+      </div>
+      <!-- end of container fluid -->
+      <!-- end of the footer section -->
+      <!-- Optional JavaScript -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+      <script>
+         if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
+      </script>
+      <script src="js/main.js"></script> <!-- Resource jQuery -->
+      <script src="js/overlay.js"></script>
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+   </body>
 </html>
