@@ -25,6 +25,21 @@ font-family: 'Josefin Sans', sans-serif;
 
 }
 
+.sugar-intro {
+  opacity: 1;
+  background-image: url(../img-f/dec-cookies.png);
+  background-size: cover;
+  height: 45rem;
+  width: 100%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: auto;
+
+}
+
 .chocolate-rec-1 {
   opacity: 1;
   background-image: url(../img/rees-cookies.jpg);
@@ -35,12 +50,23 @@ font-family: 'Josefin Sans', sans-serif;
 
 }
 
+
+.sugar-rec-1 {
+  opacity: 1;
+  background-image: url(../img-f/sugar-cookie.jpg);
+  background-size: cover;
+  height: 15rem;
+  width: auto;
+
+
+}
+
 .chocolate-rec-2 {
   opacity: 1;
   background-image: url(../img/venita.jpg);
   background-size: cover;
   height: 15rem;
-  width: 100%;
+  width: auto;
 
 
 }
@@ -50,7 +76,7 @@ font-family: 'Josefin Sans', sans-serif;
   background-image: url(../img-f/blue-berrybanner.png);
   background-size: cover;
   height: 15rem;
-  width: 100%;
+  width: auto;
 
 
 }

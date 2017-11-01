@@ -115,9 +115,29 @@ font-family: 'Josefin Sans', sans-serif;
 
  }
 
-.img-size-style {
+.img-size-style-1 {
 
     height: 16rem;
+    background-image: url(../img/boss-cup.jpg);
+    background-size: cover;
+    width: 100%;
+
+}
+
+.img-size-style-2 {
+
+    height: 16rem;
+    background-image: url(../img/baking-2.jpg);
+    background-size: cover;
+    width: 100%;
+
+}
+
+.img-size-style-3 {
+
+    height: 16rem;
+    background-image: url(../img/coffee-beauty.jpg);
+    background-size: cover;
     width: 100%;
 
 }
@@ -142,9 +162,6 @@ font-family: 'Josefin Sans', sans-serif;
 
   font-family: 'Lato', sans-serif;
   font-size: 0.9rem;
-
-
-
 
 }
 
