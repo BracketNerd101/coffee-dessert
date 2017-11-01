@@ -109,9 +109,9 @@ font-family: 'Josefin Sans', sans-serif;
 .cookie-quote-spacing {
 
   height: inherit;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-  margin-top: 4rem;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  /*margin-top: 4rem;*/
 
  }
 
@@ -148,13 +148,12 @@ font-family: 'Josefin Sans', sans-serif;
 
 }
 
- .strong-intro {
+.strong-intro {
 
    font-size: 2rem;
    margin-bottom: 2rem;
    margin-top: 2rem;
    font-family: 'Oswald', sans-serif;
-
 
  }
 
@@ -170,7 +169,7 @@ font-family: 'Josefin Sans', sans-serif;
    height: inherit;
    font-family: 'Oswald', sans-serif;
    font-size: 3.2rem;
-   padding-bottom: 1rem;
+   /*padding-bottom: 1rem;*/
    /*padding-top: 1rem;*/
 
  }
@@ -179,7 +178,7 @@ font-family: 'Josefin Sans', sans-serif;
 
    font-size: 1.5rem;
    font-family: 'Playfair Display', serif;
-   margin-top: 5rem;
+   margin-top: 1.2rem;
 
 }
 
@@ -272,7 +271,7 @@ font-family: 'Josefin Sans', sans-serif;
 
  .cookie-img-doors-2 {
    opacity: 1;
-   background-image: url(../img-f/gourmet-cookies.png);
+   background-image: url(../img-f/dec-cookies.png);
    background-size: cover;
    height: 35rem;
    width: auto;
@@ -280,7 +279,7 @@ font-family: 'Josefin Sans', sans-serif;
 
  .cookie-img-doors-3 {
    opacity: 1;
-   background-image: url(../img-f/coffee-whipped.png);
+   background-image: url(../img-f/gourmet-cookies.png);
    background-size: cover;
    height: 35rem;
    width: auto;

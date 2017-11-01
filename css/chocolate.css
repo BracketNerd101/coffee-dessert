@@ -25,9 +25,26 @@ font-family: 'Josefin Sans', sans-serif;
 
 }
 
+
+
 .sugar-intro {
   opacity: 1;
   background-image: url(../img-f/dec-cookies.png);
+  background-size: cover;
+  height: 45rem;
+  width: 100%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: auto;
+
+}
+
+.pb-intro {
+  opacity: 1;
+  background-image: url(../img/gourmet-cookies.jpg);
   background-size: cover;
   height: 45rem;
   width: 100%;
