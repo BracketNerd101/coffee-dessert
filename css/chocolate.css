@@ -73,8 +73,18 @@ font-family: 'Josefin Sans', sans-serif;
   background-image: url(../img-f/sugar-cookie.jpg);
   background-size: cover;
   height: 15rem;
-  width: auto;
+  width: 100%;
 
+
+}
+
+
+.pb-rec-1 {
+  opacity: 1;
+  background-image: url(../img/pb-cookies.jpg);
+  background-size: cover;
+  height: 15rem;
+  width: 100%;
 
 }
 
